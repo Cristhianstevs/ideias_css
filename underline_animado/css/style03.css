@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* Animação de Underline - Centro para as Laterais */
+/* Animação de Underline - Direita para Esquerda | Equerda para Direita */
 /* Para que a animação funcine atribua a classe "animated-underline-03" à tag desejada */
 
 .animated-underline-03 {
