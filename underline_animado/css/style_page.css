@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    background-color: #ddd;
+}
+main article {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    padding: 6vh 0;
+}
+main article .container {
+    padding: 6vh 0;
+    text-align: center;
+}
+
+main article .container p {
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+/* Informar nas CSS */
+
+main article .container p a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* ---------------- */
+
+footer {
+    text-align: center;
+    font-weight: 100;
+    padding: 20px;
+}
+footer .comments {
+    color: green;
+    padding-bottom: 5px;
+}
+footer p {
+    font-size: 14px;
+}
+footer p a {
+    text-decoration: none;
+    color: #000;
+}
+footer p .animated-underline-01::after {
+    height: 1px;
+    bottom: -1px;
+}
