@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liquid Glass - Efeito Isolado</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <svg width="0" height="0" style="position: absolute; left: -10000px;">
+        <defs>
+          <filter id="lensFilter">
+            <feTurbulence type="fractalNoise" baseFrequency="0.02 0.02" numOctaves="1" result="turbulence"/>
+            <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="180" xChannelSelector="G" yChannelSelector="B"/>
+          </filter>
+        </defs>
+    </svg>
+
+    <div class="row1">
+      <div class="liquid-glass icon1">
+          <div class="liquid-glass-background"></div>
+          <div class="liquid-glass-content icon1"><i class="fa-solid fa-house"></i></div>
+      </div>
+      <div class="liquid-glass icon2">
+          <div class="liquid-glass-background"></div>
+          <div class="liquid-glass-content icon2"><i class="fa-solid fa-volume-high"></i></div>
+      </div>
+      <div class="liquid-glass icon2">
+          <div class="liquid-glass-background"></div>
+          <div class="liquid-glass-content icon2"><i class="fa-solid fa-sun"></i></div>
+      </div>
+    </div>
+    <div class="row2">
+      <div class="liquid-glass icon3">
+          <div class="liquid-glass-background"></div>
+          <div class="liquid-glass-content icon3"><i class="fa-solid fa-music"></i></div>
+      </div>
+      <div class="liquid-glass icon3">
+          <div class="liquid-glass-background"></div>
+          <div class="liquid-glass-content icon3"><i class="fa-solid fa-battery-full"></i></div>
+      </div>
+      <div class="liquid-glass icon4">
+          <div class="liquid-glass-background"></div>
+          <div class="liquid-glass-content icon4"><i class="fa-solid fa-moon"></i></div>
+      </div>
+    </div>
+
+</body>
+</html>
